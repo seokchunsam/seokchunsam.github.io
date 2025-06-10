@@ -13,7 +13,8 @@ Lambda 함수가 CloudWatch Logs에 로그를 출력하려면 다음 권한이 �
     "logs:PutLogEvents"
   ],
   "Resource": "*"
-}```
+}
+```
 
 
 

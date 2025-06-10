@@ -1,8 +1,8 @@
 # CloudWatch Logs와 Lambda 연동
 
-## ✅ Lambda → CloudWatch Logs 권한
+## Lambda → CloudWatch Logs 권한
 
-Lambda 함수가 CloudWatch Logs에 로그를 출력하려면 다음 권한이 필요:
+Lambda 함수가 CloudWatch Logs에 로그를 출력하려면 다음 권한이 필요
 
 ```json
 {
@@ -13,15 +13,15 @@ Lambda 함수가 CloudWatch Logs에 로그를 출력하려면 다음 권한이 �
     "logs:PutLogEvents"
   ],
   "Resource": "*"
-}
+}```
 
 
 
 # CloudWatch LogsとLambdaの連携
 
-## ✅ Lambda → CloudWatch Logs への書き込み権限
+## Lambda → CloudWatch Logs への書き込み権限
 
-Lambda関数がCloudWatch Logsにログを出力するには、次のIAMポリシーが必要です：
+Lambda関数がCloudWatch Logsにログを出力するには、次のIAMポリシーが必要
 
 ```json
 {
@@ -32,4 +32,4 @@ Lambda関数がCloudWatch Logsにログを出力するには、次のIAMポリ�
     "logs:PutLogEvents"
   ],
   "Resource": "*"
-}
+}```

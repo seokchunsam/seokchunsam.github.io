@@ -1,6 +1,6 @@
 # VPC 및 네트워킹 보안
 
-## ✅ VPC Flow Logs가 CloudWatch Logs에 전송되지 않는 문제 (문제 #455)
+## ✅ VPC Flow Logs가 CloudWatch Logs에 전송되지 않는 문제
 
 ### 💡 상황
 - VPC Flow Logs를 CloudWatch Logs에 전송하도록 구성했으나, 로그가 전혀 나타나지 않음
